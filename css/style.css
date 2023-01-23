@@ -1,29 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Oswald:wght@300;400;500;600;700&family=Rosario:wght@700&display=swap');
+@import url('./head.css');
+
 
 * {
     box-sizing: border-box;
     color: #222222
 }
 
-.conteiner {
+.container {
+    position: relative;
     display: flex;
     flex-direction: column;
     margin: auto;
-}
-
-.head {
-    width: 100%;
-    padding: 45px;
-    background-color: #FFFFFF;
-}
-
-.head__center {
-    font-family: "DM Sans";
-    width: 1240px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
 }
 
 .menu__list {
@@ -31,6 +19,8 @@
     line-height: 24px;
     list-style: none;
     display: flex;
+    margin:0;
+    padding:0;
     gap: 40px;
 }
 
@@ -177,7 +167,8 @@
     position: relative;
     z-index: -1;
     width: 100%;
-    padding: 140px;
+    padding-top: 140px;
+    padding-bottom: 140px;
     background-color: #FFFFFF;
 }
 
@@ -429,6 +420,72 @@
     left: 980px;
     top: 3605px;
 }
+
+.simple-way{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 115px;
+}
+
+.download-block{
+    width: 170px;
+    height: 40px;
+    border-radius: 50px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 16px;
+    background-color: #F3FBF8;
+}
+
+.simple-text__main{
+    font-family: 'Rosario';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 90px;
+    margin-bottom: 20px;
+}
+
+.simple-text__parag{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 50px;
+    color: #555555;
+}
+
+.store{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.footer{
+    width: 100%;
+    padding-top: 70px;
+    padding-bottom: 120px;
+    background-color: #FCFEFD;
+}
+
+.footer__center{
+    width: 1240px;
+    margin: 0 auto;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
 
 
 

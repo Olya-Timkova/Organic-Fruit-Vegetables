@@ -1,0 +1,15 @@
+.head {
+    width: 100%;
+    padding: 45px;
+    background-color: #FFFFFF;  /* По умолчанию цвет и так белый */
+}
+
+.head__center {
+    font-family: "DM Sans";
+    width: 1240px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row; /* Не нужно задать флек роу, он по умолчанию роу */
+    justify-content: space-between;
+    align-items: center;
+}

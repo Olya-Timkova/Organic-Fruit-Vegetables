@@ -5,16 +5,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Organic Fruit & Vegetables</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>Organic Fruit-Vegetables</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css"> <!-- Не указан тип документа type="text/css" -->
 </head>
 
 <body>
-    <div class="conteiner">
+    <div class="container"> <!--Не закрыт контейнер -->
         <div class="head">
-            <div class="head__center">
+            <div class="head__center"> <!-- Где выравнивание по вертикали ?  align..... добавить  -->
                 <div class="menu">
-                    <ul class="menu__list">
+                    <ul class="menu__list">  <!-- не нужно полагатся на margin/padding по умолчанию для тэга ul лучше обнулить и задать явно размеры , ul содержит лишние по умолчанию отступы, можно без них выровнять  -->
                         <li>About us</li>
                         <li>Service</li>
                         <li>Menu</li>
@@ -22,12 +22,12 @@
                     </ul>
                 </div>
                 <div class="logo">
-                    <img src="image/planet-earth (1) 1.png">
+                    <img src="image/planet-earth (1) 1.png" alt="logo"> <!--Пробелы в названии, заменить на нижние подчеркивания -->
                 </div>
                 <div class="regestar__icon">
                     <div class="icon">
-                        <img src="image/search.png">
-                        <img src="image/buy.png">
+                        <img src="image/search.png" alt="иконка поиска">
+                        <img src="image/buy.png" alt="иконка корзины">
                     </div>
                     <div class="submit__but">
                         <input class="button__regestar" type="submit" name="button" value="Regestar Now">
@@ -37,17 +37,17 @@
         </div>
         <div class="main">
             <div class="main__center">
-                <div class="main__image-fresh">
-                    <img src="image/fresh-melientha.png">
+                <div class="main__image-fresh">  <!-- Сейчас абсолют действует в рамках body, лучше что бы действовал в рамках container , positino:relative для container -->
+                    <img src="image/fresh-melientha.png" alt="листья">
                 </div>
                 <div class="main__bloc-text">
                     <div class="text-off-main">
-                        Organic Fruit & Vegetables
+                        Organic Fruit and Vegetables <!-- Если текст часть мейна, почему тут он называется отдельно от мейна -->
                     </div>
                     <div class="text-off-main-parag">
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br />Lorem Ipsum has
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br> Lorem Ipsum has
                         been
-                        the industry's standard dummy text ever since the <br />1500s, when an unknown printer took a
+                        the industry's standard dummy text ever since the <br> 1500s, when an unknown printer took a
                         galley...
                     </div>
                     <div class="btn">
@@ -55,17 +55,17 @@
                             Order Now
                         </div>
                         <div class="icon__btn">
-                            <img src="image/Arrow 6.png">
+                            <img src="image/Arrow 6.png" alt="кнопка">
                         </div>
                     </div>
                 </div>
-                <div class="numbers">
+                <div class="numbers">  <!-- Почему numbers а в него входит меин, если это другая секция то начни называть её все намберс, если прошлая значит продолжи мейнами -->
                     <div class="main__image-food">
-                        <img src="image/vegetables.png">
+                        <img src="image/vegetables.png" alt="фрукты">
                     </div>
-                    <div class="block__main-prew">
+                    <div class="block__main-prew"> <!-- У последнего элемента висящий марджин, либо создай отдельный класс и с стилем марджин 0, либо дай блоку >last-child {margin 0} --> <!--  + нейминг неправильный-->
                         <div class="user-k">
-                            <img src="image/men.png">
+                            <img src="image/men.png" alt="">
                             <div class="user-k_text">
                                 <div class="k">
                                     30k
@@ -76,7 +76,7 @@
                             </div>
                         </div>
                         <div class="user-k">
-                            <img src="image/star.png">
+                            <img src="image/star.png" alt="">
                             <div class="user-k_text">
                                 <div class="k">
                                     20k
@@ -87,7 +87,7 @@
                             </div>
                         </div>
                         <div class="user-k">
-                            <img src="image/men.png">
+                            <img src="image/men.png" alt="">
                             <div class="user-k_text">
                                 <div class="k">
                                     300
@@ -101,61 +101,61 @@
                 </div>
             </div>
         </div>
-        <div class="about">
+        <div class="about"> <!-- Боковые падинги не нужны , 100 ширина , зачем боковые падинги -->
             <div class="about__center">
                 <div class="why-we">
                     <div class="why-whe-off-text">
                         Why We Aer The Best?
                     </div>
                     <div class="why-whe-parag">
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br />Lorem Ipsum
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br>Lorem Ipsum
                         has
                         been
-                        the industry's standard dummy text ever since the <br />1500s, when an unknown printer took
+                        the industry's standard dummy text ever since the <br>1500s, when an unknown printer took
                         a
                         galley...
                     </div>
                     <div class="we-block-image-center">
-                        <div class="why-we-with">
+                        <div class="why-we-with"> <!-- Здесь в перемешку и gap и margin лучше посторатся выровнять чем-то одним, тяжело понять какой отступ за что отвечает  -->
                             <div class="we-block">
-                                <img src="image/dilevery.svg">
+                                <img src="image/dilevery.svg" alt="">
                                 <div class="we-blockText">
                                     <div class="texone">
                                         Fasted delivery Service
                                     </div>
                                     <div class="texttwo">
-                                        Lorem Ipsum is simply dummy text of the <br /> printing and typesetting
+                                        Lorem Ipsum is simply dummy text of the <br> printing and typesetting
                                         industry.
                                     </div>
                                 </div>
                             </div>
                             <div class="we-block block-green">
-                                <img src="image/list.svg">
+                                <img src="image/list.svg" alt="">
                                 <div class="we-blockText">
                                     <div class="texone">
                                         Fasted delivery Service
                                     </div>
                                     <div class="texttwo">
-                                        Lorem Ipsum is simply dummy text of the <br /> printing and typesetting
+                                        Lorem Ipsum is simply dummy text of the <br> printing and typesetting
                                         industry.
                                     </div>
                                 </div>
                             </div>
                             <div class="we-block">
-                                <img src="image/whatch.png">
+                                <img src="image/whatch.png" alt="">
                                 <div class="we-blockText">
                                     <div class="texone">
                                         Fasted delivery Service
                                     </div>
                                     <div class="texttwo">
-                                        Lorem Ipsum is simply dummy text of the <br /> printing and typesetting
+                                        Lorem Ipsum is simply dummy text of the <br> printing and typesetting
                                         industry.
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="image__arrow-green">
-                            <img src="image/Arrow-green.png">
+                            <img src="image/Arrow-green.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -163,24 +163,24 @@
                     <img src="image/Vector 16.png">
                 </div> -->
                 <div class="why__image-man">
-                    <img src="image/man.png">
+                    <img src="image/man.png" alt="мужчина с корзиной фруктов">
                 </div>
             </div>
         </div>
-        <div class="explore-our">
+        <div class="explore-our"> <!-- Нету позишн релатив, цветы  в абсолюте никто не ограничивает кроме window браузера  -->
             <div class="explore-our__center">
                 <div class="explore-photo">
-                    <img src="image/photo1.svg">
+                    <img src="image/photo1.svg" alt="">
                 </div>
                 <div class="explore-text">
                     <div class="exp-text">
                         <div class="exp-main-off-text">
-                            Explor Our Special<br /> Items
+                            Explor Our Special<br> Items
                         </div>
                         <div class="exp-parag">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting <br /> industry. Lorem
+                            Lorem Ipsum is simply dummy text of the printing and typesetting <br> industry. Lorem
                             Ipsum has been
-                            the industry's standard dummy text <br /> ever since the 1500s, when an unknown printer...
+                            the industry's standard dummy text <br> ever since the 1500s, when an unknown printer...
                         </div>
                     </div>
                     <div class="btn">
@@ -188,64 +188,95 @@
                             Explor Now
                         </div>
                         <div class="icon__btn">
-                            <img src="image/Arrow 6.png">
+                            <img src="image/Arrow 6.png" alt="">
                         </div>
                     </div>
                 </div>
                 <div class="image-absolute">
-                    <img src="image/fresh-melientha.svg">
+                    <img src="image/fresh-melientha.svg" alt="">
                 </div>
             </div>
         </div>
-        <div class="last-block">
+        <div class="last-block"> <!--  плохой нейминг, сейчас он ласт, завтра попросят ещё одну секцию , будешь менять все названия-->
             <div class="last-block__center">
                 <div class="what-custom">
                     <div class="what-custom__text">
                         <div class="custom__text-main">
-                            What Our Customers <br /> About Us saying
+                            What Our Customers <br> About Us saying
                         </div>
                         <div class="custom__text-parag">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting <br /> industry. Lorem
+                            Lorem Ipsum is simply dummy text of the printing and typesetting <br> industry. Lorem
                             Ipsum has
-                            been the industry's standard dummy text <br /> ever since the 1500s, when an unknown printer
+                            been the industry's standard dummy text <br> ever since the 1500s, when an unknown printer
                             took a
-                            galley of type <br /> and scrambled it to make a type specimen book. It has survived not
-                            <br /> only five
-                            centuries, but also the leap into electronic typesetting, <br /> remaining essentially
+                            galley of type <br> and scrambled it to make a type specimen book. It has survived not
+                            <br> only five
+                            centuries, but also the leap into electronic typesetting, <br> remaining essentially
                             unchanged.
                             It was popularis
                         </div>
-                        <div class="star-arrow">
-                            <div class="star__a">
+                        <div class="star-arrow"> <!-- Не доделан блок , что с стрелками,  -->
+                            <div class="star__a"> <!-- Что за а? или s ? После тебя будут смотреть код, как им понять что такое а ? Тебе самой понятно будет через две недели что такое а ?-->
                                 <div class="text-name">
                                     Ahmed Hridoy
                                 </div>
                                 <div class="image-star">
-                                    <img src="image/star.svg">
+                                    <img src="image/star.svg" alt="пять звезд">
                                 </div>
                             </div>
                             <div class="s__arrow">
                                 <div class="right-circle">
-                                    <img src="image/right.svg">
+                                    <img src="image/right.svg" alt="">
                                 </div>
                                 <div class="left-circle">
-                                    <img src="image/left.png">
+                                    <img src="image/left.png" alt="">
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="photo__man-circle">
-                        <img src="image/man-alips.png">
+                        <img src="image/man-alips.png" alt="">
                     </div>
                     <div class="photo__social-absolut">
-                        <img src="image/people.svg">
+                        <img src="image/people.svg" alt="">
                     </div>
                 </div>
                 <div class="simple-way">
-                    
+                    <div class="photo-mobile">
+                        <img src="image/mobile.png" alt="">
+                    </div>
+                    <div class="simple__text">
+                        <div class="download-block">
+                            Download App
+                        </div>
+                        <div class="simple-text__main">
+                            Simple Way To Order <br> Your Organic Fruit
+                        </div>
+                        <div class="simple-text__parag">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting <br> industry. Lorem
+                            Ipsum has been the industry's standard dummy text <br> ever since the 1500s, when an
+                            unknown printer...
+                        </div>
+                        <div class="store">
+                            <div class="app-store">
+                                <img src="image/App Store - eng.png" alt="">
+                            </div>
+                            <div class="google-play">
+                                <img src="image/Google Play - eng.png" alt="">
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
+        <div class="footer">
+            <div class="footer__center">
+                .
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
+
+<!-- Соблюдай правила margin , padding сверху вниз -->
