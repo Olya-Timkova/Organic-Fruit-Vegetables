@@ -1,0 +1,147 @@
+.last-block {
+    position: relative;
+    width: 100%;
+    padding-top: 95px;
+    padding-bottom: 130px;
+    background-color: #FFFFFF;
+}
+
+.last-block__center {
+    width: 1240px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
+}
+
+.what-custom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.what-custom__text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.custom__text-main {
+    font-family: 'Rosario';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 90px;
+}
+
+.custom__text-parag {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.star-arrow {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    gap: 120px;
+}
+
+.star__a {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.text-name {
+    font-family: 'DM Sans';
+    font-style: medium;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+}
+
+.s__arrow {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+.right-circle {
+    width: 56px;
+    height: 56px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #CCCCCC;
+}
+
+.left-circle {
+    width: 56px;
+    height: 56px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #09A66D;
+}
+
+.photo__social-absolut {
+    position: absolute;
+    left: 980px;
+    top: 515px;
+}
+
+.simple-way {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 115px;
+}
+
+.download-block {
+    width: 170px;
+    height: 40px;
+    border-radius: 50px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 16px;
+    background-color: #F3FBF8;
+}
+
+.simple-text__main {
+    font-family: 'Rosario';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 90px;
+    margin-bottom: 20px;
+}
+
+.simple-text__parag {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 50px;
+    color: #555555;
+}
+
+.store {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
