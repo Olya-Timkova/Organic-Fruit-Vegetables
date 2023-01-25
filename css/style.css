@@ -77,7 +77,7 @@
     align-items: center;
 }
 
-.text-off-main {
+.main__text-off-main {
     font-family: 'Rosario';
     font-style: normal;
     font-weight: 700;
@@ -85,7 +85,7 @@
     line-height: 90px;
 }
 
-.text-off-main-parag {
+.main__text-off-parag {
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 400;
@@ -122,14 +122,18 @@
     background-color: #09A66D;
 }
 
-.numbers {
+.main__numbers {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
 
-.user-k {
+.user-k:last-child{
+    margin: 0;
+} 
+
+.user-k{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -202,6 +206,7 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 30px;
+    margin-bottom: 60px;
     color: #555555;
 }
 
@@ -226,7 +231,6 @@
     flex-direction: row;
     align-items: center;
     gap: 24px;
-    margin-top: 60px;
 }
 
 .texone {
@@ -271,6 +275,7 @@
 }
 
 .explore-our {
+    position: relative;
     width: 100%;
     padding-top: 95px;
     padding-bottom: 140px;
@@ -320,10 +325,11 @@
 .image-absolute {
     position: absolute;
     right: 285px;
-    top: 2679px;
+    top: 432px;
 }
 
 .last-block {
+    position: relative;
     width: 100%;
     padding-top: 95px;
     padding-bottom: 130px;
@@ -418,7 +424,7 @@
 .photo__social-absolut {
     position: absolute;
     left: 980px;
-    top: 3605px;
+    top: 515px;
 }
 
 .simple-way {
@@ -486,13 +492,13 @@
     align-items: center;
 }
 
-.logo-parag{
+.logo-parag {
     display: flex;
     flex-direction: column;
     gap: 30px;
 }
 
-.parag-footer{
+.parag-footer {
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 400;
@@ -500,12 +506,12 @@
     line-height: 30px;
 }
 
-.contact-footer{
+.contact-footer {
     display: flex;
     gap: 142px;
 }
 
-li{
+li.menu-footer-li {
     list-style-type: none;
     font-family: 'DM Sans';
     font-style: normal;
@@ -516,18 +522,18 @@ li{
     color: #555555;
 }
 
-ul{
+ul.footer-list {
     margin-left: 0;
     padding-left: 0;
 }
 
-.menu-footer{
+.menu-footer {
     display: flex;
     flex-direction: column;
     gap: 40px;
 }
 
-.menu-footer__name{
+.menu-footer__name {
     font-family: 'DM Sans';
     font-style: medium;
     font-weight: 500;
@@ -536,13 +542,13 @@ ul{
     color: #222222;
 }
 
-.social-mail__footer{
+.social-mail__footer {
     display: flex;
     flex-direction: column;
-    gap: 25px; 
+    gap: 25px;
 }
 
-.menu-footer__list{
+.menu-footer__list {
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 400;
@@ -551,7 +557,7 @@ ul{
     color: #555555;
 }
 
-.menu-footer__social{
+.menu-footer__social {
     display: flex;
-    gap: 50px; 
+    gap: 50px;
 }
