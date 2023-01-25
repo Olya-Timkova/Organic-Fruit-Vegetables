@@ -14,7 +14,8 @@
         <div class="head">
             <div class="head__center"> <!-- Где выравнивание по вертикали ?  align..... добавить  -->
                 <div class="menu">
-                    <ul class="menu__list">  <!-- не нужно полагатся на margin/padding по умолчанию для тэга ul лучше обнулить и задать явно размеры , ul содержит лишние по умолчанию отступы, можно без них выровнять  -->
+                    <ul class="menu__list">
+                        <!-- не нужно полагатся на margin/padding по умолчанию для тэга ul лучше обнулить и задать явно размеры , ul содержит лишние по умолчанию отступы, можно без них выровнять  -->
                         <li>About us</li>
                         <li>Service</li>
                         <li>Menu</li>
@@ -22,7 +23,8 @@
                     </ul>
                 </div>
                 <div class="logo">
-                    <img src="image/planet-earth (1) 1.png" alt="logo"> <!--Пробелы в названии, заменить на нижние подчеркивания -->
+                    <img src="image/planet-earth (1) 1.png" alt="logo">
+                    <!--Пробелы в названии, заменить на нижние подчеркивания -->
                 </div>
                 <div class="regestar__icon">
                     <div class="icon">
@@ -37,12 +39,14 @@
         </div>
         <div class="main">
             <div class="main__center">
-                <div class="main__image-fresh">  <!-- Сейчас абсолют действует в рамках body, лучше что бы действовал в рамках container , positino:relative для container -->
+                <div class="main__image-fresh">
+                    <!-- Сейчас абсолют действует в рамках body, лучше что бы действовал в рамках container , positino:relative для container -->
                     <img src="image/fresh-melientha.png" alt="листья">
                 </div>
                 <div class="main__bloc-text">
                     <div class="text-off-main">
-                        Organic Fruit and Vegetables <!-- Если текст часть мейна, почему тут он называется отдельно от мейна -->
+                        Organic Fruit and Vegetables
+                        <!-- Если текст часть мейна, почему тут он называется отдельно от мейна -->
                     </div>
                     <div class="text-off-main-parag">
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br> Lorem Ipsum has
@@ -59,11 +63,14 @@
                         </div>
                     </div>
                 </div>
-                <div class="numbers">  <!-- Почему numbers а в него входит меин, если это другая секция то начни называть её все намберс, если прошлая значит продолжи мейнами -->
+                <div class="numbers">
+                    <!-- Почему numbers а в него входит меин, если это другая секция то начни называть её все намберс, если прошлая значит продолжи мейнами -->
                     <div class="main__image-food">
                         <img src="image/vegetables.png" alt="фрукты">
                     </div>
-                    <div class="block__main-prew"> <!-- У последнего элемента висящий марджин, либо создай отдельный класс и с стилем марджин 0, либо дай блоку >last-child {margin 0} --> <!--  + нейминг неправильный-->
+                    <div class="block__main-prew">
+                        <!-- У последнего элемента висящий марджин, либо создай отдельный класс и с стилем марджин 0, либо дай блоку >last-child {margin 0} -->
+                        <!--  + нейминг неправильный-->
                         <div class="user-k">
                             <img src="image/men.png" alt="">
                             <div class="user-k_text">
@@ -116,7 +123,8 @@
                         galley...
                     </div>
                     <div class="we-block-image-center">
-                        <div class="why-we-with"> <!-- Здесь в перемешку и gap и margin лучше посторатся выровнять чем-то одним, тяжело понять какой отступ за что отвечает  -->
+                        <div class="why-we-with">
+                            <!-- Здесь в перемешку и gap и margin лучше посторатся выровнять чем-то одним, тяжело понять какой отступ за что отвечает  -->
                             <div class="we-block">
                                 <img src="image/dilevery.svg" alt="">
                                 <div class="we-blockText">
@@ -167,7 +175,8 @@
                 </div>
             </div>
         </div>
-        <div class="explore-our"> <!-- Нету позишн релатив, цветы  в абсолюте никто не ограничивает кроме window браузера  -->
+        <div class="explore-our">
+            <!-- Нету позишн релатив, цветы  в абсолюте никто не ограничивает кроме window браузера  -->
             <div class="explore-our__center">
                 <div class="explore-photo">
                     <img src="image/photo1.svg" alt="">
@@ -197,7 +206,8 @@
                 </div>
             </div>
         </div>
-        <div class="last-block"> <!--  плохой нейминг, сейчас он ласт, завтра попросят ещё одну секцию , будешь менять все названия-->
+        <div class="last-block">
+            <!--  плохой нейминг, сейчас он ласт, завтра попросят ещё одну секцию , будешь менять все названия-->
             <div class="last-block__center">
                 <div class="what-custom">
                     <div class="what-custom__text">
@@ -216,7 +226,8 @@
                             It was popularis
                         </div>
                         <div class="star-arrow"> <!-- Не доделан блок , что с стрелками,  -->
-                            <div class="star__a"> <!-- Что за а? или s ? После тебя будут смотреть код, как им понять что такое а ? Тебе самой понятно будет через две недели что такое а ?-->
+                            <div class="star__a">
+                                <!-- Что за а? или s ? После тебя будут смотреть код, как им понять что такое а ? Тебе самой понятно будет через две недели что такое а ?-->
                                 <div class="text-name">
                                     Ahmed Hridoy
                                 </div>
@@ -271,7 +282,57 @@
         </div>
         <div class="footer">
             <div class="footer__center">
-                .
+                <div class="logo-parag">
+                    <div class="logo-footer">
+                        <img src="image/planet-earth (1) 1.png" alt="logo">
+                    </div>
+                    <div class="parag-footer">
+                        Lorem Ipsum is simply dummy text of the <br>printing and typesetting industry. Lorem
+                        <br>Ipsum has been the industry's standard <br>dummy text ever since the 1500s, when <br>an
+                        unknown printer...
+                    </div>
+                </div>
+                <div class="contact-footer">
+                    <div class="menu-footer">
+                        <div class="menu-footer__name">
+                            Navigation
+                        </div>
+                        <div class="menu-footer__list">
+                            <ul>
+                                <li>About Us</li>
+                                <li>Service</li>
+                                <li>Menu</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="menu-footer">
+                        <div class="menu-footer__name">
+                            Resources
+                        </div>
+                        <div class="menu-footer__list">
+                            <ul>
+                                <li>Reviews</li>
+                                <li>Blog</li>
+                                <li>Update News</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="menu-footer">
+                        <div class="menu-footer__name">
+                            Contact Us
+                        </div>
+                        <div class="social-mail__footer">
+                            <div class="menu-footer__list">
+                                Email: oyasim@email.com
+                            </div>
+                            <div class="menu-footer__social">
+                                <img src="image/facebook 1.png" alt="facebook">
+                                <img src="image/twitter 1.png" alt="twiter">
+                                <img src="image/instagram 1.png" alt="instagram">
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

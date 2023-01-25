@@ -19,8 +19,8 @@
     line-height: 24px;
     list-style: none;
     display: flex;
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
     gap: 40px;
 }
 
@@ -205,23 +205,23 @@
     color: #555555;
 }
 
-.we-block-image-center{
+.we-block-image-center {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap:50px;
+    gap: 50px;
 }
 
-.why-we-with{
+.why-we-with {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap:50px;
+    gap: 50px;
 }
 
-.we-block{
+.we-block {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -229,7 +229,7 @@
     margin-top: 60px;
 }
 
-.texone{
+.texone {
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 700;
@@ -237,7 +237,7 @@
     line-height: 30px;
 }
 
-.texttwo{
+.texttwo {
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 400;
@@ -245,7 +245,7 @@
     line-height: 20px;
 }
 
-.block-green{
+.block-green {
     width: 500px;
     height: 160px;
     display: flex;
@@ -261,7 +261,7 @@
     z-index: 1;
 } */
 
-.why__image-man{
+.why__image-man {
     position: absolute;
     left: 965px;
     top: 350px;
@@ -270,37 +270,37 @@
     align-items: center;
 }
 
-.explore-our{
+.explore-our {
     width: 100%;
     padding-top: 95px;
     padding-bottom: 140px;
     background-color: rgba(9, 166, 109, 0.05);
 }
 
-.explore-our__center{
+.explore-our__center {
     width: 1240px;
     margin: 0 auto;
-    display:flex;
+    display: flex;
     flex-direction: row;
     justify-content: center;
-    gap:50px;
+    gap: 50px;
 }
 
-.explore-text{
+.explore-text {
     display: flex;
     flex-direction: column;
-    justify-content:flex-start;
+    justify-content: flex-start;
     align-items: space-between;
     gap: 40px;
 }
 
-.exp-text{
+.exp-text {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 
-.exp-main-off-text{
+.exp-main-off-text {
     font-family: 'Rosario';
     font-style: normal;
     font-weight: 700;
@@ -308,7 +308,7 @@
     line-height: 90px;
 }
 
-.exp-parag{
+.exp-parag {
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 400;
@@ -317,42 +317,42 @@
     color: #555555;
 }
 
-.image-absolute{
+.image-absolute {
     position: absolute;
     right: 285px;
     top: 2679px;
 }
 
-.last-block{
-    width:100%;
-    padding-top:95px;
+.last-block {
+    width: 100%;
+    padding-top: 95px;
     padding-bottom: 130px;
     background-color: #FFFFFF;
 }
 
-.last-block__center{
-    width:1240px;
-    margin: 0 auto; 
+.last-block__center {
+    width: 1240px;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
-    gap:150px;
+    gap: 150px;
 }
 
-.what-custom{
+.what-custom {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    gap:100px;
+    gap: 100px;
 }
 
-.what-custom__text{
+.what-custom__text {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap:30px;
+    gap: 30px;
 }
 
-.custom__text-main{
+.custom__text-main {
     font-family: 'Rosario';
     font-style: normal;
     font-weight: 700;
@@ -360,7 +360,7 @@
     line-height: 90px;
 }
 
-.custom__text-parag{
+.custom__text-parag {
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 400;
@@ -368,20 +368,20 @@
     line-height: 30px;
 }
 
-.star-arrow{
+.star-arrow {
     display: flex;
     flex-direction: row;
     align-items: flex-end;
     gap: 120px;
 }
 
-.star__a{
+.star__a {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 
-.text-name{
+.text-name {
     font-family: 'DM Sans';
     font-style: medium;
     font-weight: 700;
@@ -389,13 +389,13 @@
     line-height: 36px;
 }
 
-.s__arrow{
+.s__arrow {
     display: flex;
     flex-direction: row;
     gap: 25px;
 }
 
-.right-circle{
+.right-circle {
     width: 56px;
     height: 56px;
     border-radius: 100%;
@@ -405,7 +405,7 @@
     border: 1px solid #CCCCCC;
 }
 
-.left-circle{
+.left-circle {
     width: 56px;
     height: 56px;
     border-radius: 100%;
@@ -415,13 +415,13 @@
     background-color: #09A66D;
 }
 
-.photo__social-absolut{
+.photo__social-absolut {
     position: absolute;
     left: 980px;
     top: 3605px;
 }
 
-.simple-way{
+.simple-way {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -429,7 +429,7 @@
     gap: 115px;
 }
 
-.download-block{
+.download-block {
     width: 170px;
     height: 40px;
     border-radius: 50px;
@@ -445,7 +445,7 @@
     background-color: #F3FBF8;
 }
 
-.simple-text__main{
+.simple-text__main {
     font-family: 'Rosario';
     font-style: normal;
     font-weight: 700;
@@ -454,7 +454,7 @@
     margin-bottom: 20px;
 }
 
-.simple-text__parag{
+.simple-text__parag {
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 400;
@@ -464,28 +464,94 @@
     color: #555555;
 }
 
-.store{
+.store {
     display: flex;
     flex-direction: row;
     gap: 24px;
 }
 
-.footer{
+.footer {
     width: 100%;
     padding-top: 70px;
     padding-bottom: 120px;
     background-color: #FCFEFD;
 }
 
-.footer__center{
+.footer__center {
     width: 1240px;
     margin: 0 auto;
-    display:flex;
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
 
+.logo-parag{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
 
+.parag-footer{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+}
 
+.contact-footer{
+    display: flex;
+    gap: 142px;
+}
 
+li{
+    list-style-type: none;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    margin-bottom: 25px;
+    color: #555555;
+}
+
+ul{
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.menu-footer{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.menu-footer__name{
+    font-family: 'DM Sans';
+    font-style: medium;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 31px;
+    color: #222222;
+}
+
+.social-mail__footer{
+    display: flex;
+    flex-direction: column;
+    gap: 25px; 
+}
+
+.menu-footer__list{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #555555;
+}
+
+.menu-footer__social{
+    display: flex;
+    gap: 50px; 
+}
